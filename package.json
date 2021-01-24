@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.31",
@@ -31,7 +32,8 @@
     "vue-cli-plugin-fontawesome": "^0.3.1",
     "vue-cli-plugin-tailwind": "^2.0.5",
     "vue-particles": "^1.0.9",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "execa": "latest"
   },
   "eslintConfig": {
     "root": true,
